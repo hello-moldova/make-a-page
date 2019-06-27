@@ -1,0 +1,31 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<input id="a">
+		<input id="b">
+		<button id="but">Click me!</button>
+
+		<p id="result">
+			
+		</p>
+
+		<script>
+			var a;
+			var b;
+
+			var button = document.getElementById("but");
+			var f = function() {
+				a = document.getElementById("a").value;
+				b = document.getElementById("b").value;
+
+				//document.getElementById("result").innerHTML = a+b; //string +
+				var p = document.createElement("p");
+				p.innerHTML = parseInt(a) + parseInt(b);
+				document.getElementById("result").appendChild(p);
+			};
+
+			button.onclick = f;
+		</script>
+	</body>
+</html>

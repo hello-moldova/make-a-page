@@ -1,0 +1,6 @@
+print("String plus String?")
+print("String"+"String")
+print("3 + 4?")
+print("3"+"4")
+print("No! integer 3+4!")
+print(3+4)

@@ -1,0 +1,31 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p>
+			Category <span id="fold"></span>
+			<ul id = "list">
+				<li>A</li>
+				<li>B</li>
+				<li>C</li>
+			</ul>
+		</p>
+		<script>
+			var list = document.getElementById("list");
+			var fold = document.getElementById("fold");
+
+			var open = function() {
+				fold.innerHTML = '▼';
+				list.style.display = 'block';
+				fold.onclick = close;
+			};
+			var close = function() {
+				fold.innerHTML = '◀';
+				list.style.display = 'none';
+				fold.onclick = open;
+			};
+
+			close();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+print("Do 5-3")
+print(5-3)
+print("What is 4 divided by 2?")
+print(4/2)
+print("What about 3?")
+print(4/3)
+print("What is 8 mod 3?")
+print(8%3)
