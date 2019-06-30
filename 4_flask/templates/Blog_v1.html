@@ -1,22 +1,22 @@
 <html>
 	<head>
 		<title>My Homepage</title>
-		<link href="{{url_for('static', filename = 'style.css')}}" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div class="menu">
-			<a href="/"><span class="menubutton">Home</span></a>
-			<a href="/blog"><span class="menubutton">Blog</span></a>
+			<a href="AboutMe.html"><span class="menubutton">Home</span></a>
+			<a href="Blog.html"><span class="menubutton">Blog</span></a>
 			<span class="menubutton">Gallery</span>
 		</div>
 
-		<div class="main">
+		<div class="blog">
 			<div class="post">
 				<h1>Cats</h1>
 				2019-06-20
 				<hr>
 				<p>
-					<img src="{{url_for('static', filename = 'cat1.jpg')}}" class="center" width="300px">
+					<img src="Cat1.jpg" class="center" width="300px">
 				</p>
 				<p>
 					Say hello to our dormitory cat, Piggy! You can easily guess why he's called that. He's pretty fat, and very soft to touch...
@@ -25,7 +25,7 @@
 					He likes being petted, basking in the sunlight, and eating some snacks. His favorite food is Ciao Churu: a soup-like catfood that tastes like tuna, salmon, or chicken. But he's so generous that he sometimes yields his Churu to a younger cat.
 				</p>
 				<p>
-					<img src="{{url_for('static', filename = 'cat2.jpg')}}" class="center" width="600px">
+					<img src="Cat2.jpg" class="center" width="600px">
 				</p>
 				<p class="center" style="width: 30%;">
 					Look! he's taking a nap in the bush.

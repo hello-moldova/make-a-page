@@ -1,0 +1,35 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p>Wow</p>
+		<p>Hello!</p>
+		<script>
+			var x = document.getElementsByTagName("p");
+			console.log(x.length);
+
+			var i = 0;
+
+			console.log("While loop");
+			while(i < x.length) {
+				console.log(x[i]);
+				i++;	// this is VERY important!
+			}
+
+			console.log("For loop");
+			for (var i=0; i<x.length; i++) {
+				console.log(x[i]);
+			}
+
+
+			var s = "";
+
+			console.log("Summing all strings");
+			for (var i=0; i<x.length; i++) {
+				s += x[i].innerHTML;
+			}
+
+			console.log(s);
+		</script>
+	</body>
+</html>
